@@ -1,12 +1,12 @@
 
 public class PersonalInformation {
 	
-	String userName;
-	String password;
-	String name;
-	String surname;
-	String job;
-	String newPassword;
+	private String userName;
+	private String password;
+	private String name;
+	private String surname;
+	private String job;
+	private String newPassword;
 	
 	public PersonalInformation(String username, String password, String name, String surname, String job ,String newPassword) {
 		this.userName = username;
